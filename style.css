@@ -1,0 +1,59 @@
+:root {
+    --first-color: #fff;
+    --second-color: #8685EF;
+    --third-color: #FAF8FF;
+    --fourth-color: #E3E0F3; 
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    color: #000000;
+    font-size: 13px;
+    margin: 0;
+    list-style: none;
+}
+
+header {
+    background-color: #8685EF;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.img {
+    height: 256px;
+    width: 256px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.produtos{
+    background-color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
+.produto{
+    background-color: #fff;
+    margin-top: 5px;
+}
+textarea{
+    resize: none;
+}
+form{
+    display: block;
+}
+input{
+    display: block;
+}
+label{
+    display: block;
+}
+.nomeProduto{
+    font-size: 30px;
+}

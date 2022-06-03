@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IComanda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="restaurant.png" alt="icon" height="30px" width="30px">
+            <figcaption hidden>icon</figcaption>
+        </figure>
+        <h1>IComanda</h1>
+        <ul>
+            <li>
+                <h2><a href="menu.html">Menu</a></h2>
+            </li>
+            <li>
+                <h2><a href="howtouse.html">Como usar</a></h2>
+            </li>
+            <li>
+                <h2><a href="Devs.html">Devs</a></h2>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <form action="index.js">
+            <label for="tituloitem">Nome do Item</label>
+            <input type="text" name="tituloitem" id="tituloitem" placeholder="Insira o nome do item aqui" required class="nome">
+            <label for="descitem">Descrição do Item</label>
+            <textarea name="descitem" id="descitem" cols="30" rows="5" placeholder="Insira a descrição do item aqui" required></textarea>
+            <label for="price">Preço do item</label>
+            <input type="number" name="price" id="price" placeholder="R$0,00" required class="price" value="R$">
+            <button type="submit">Inserir item</button>
+        </form>
+        <article>
+            <ul class="produtos">
+                <li class="produtoContainer">
+                    <section class="produto">
+                        <h5 class="nomeProduto">Batata Frita</h5>
+                        <p class="descProduto">400g de batatas fritas sequinhas e caseiras</p>
+                        <p class="prcProduto">R$10,00</p>
+                    </section>
+                </li>
+            </ul>
+        </article>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
